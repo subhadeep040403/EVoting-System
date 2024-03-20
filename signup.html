@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Sign Up</title>
+        <style>
+            body 
+            {
+                height: 100%;
+                font-family: Arial, sans-serif;
+                text-align: center;
+            }
+            * 
+            {
+                box-sizing: border-box;
+            }
+            h1 
+            {
+                text-align:center;
+                color:rgb(10, 53, 245);
+                -webkit-text-stroke: 1px black;
+            }
+            .bg 
+            {
+                background-image: url(https://akm-img-a-in.tosshub.com/businesstoday/images/story/201905/voting-o_660_050619073027.jpg?size=948:533);
+                background-color: rgb(43, 226, 95);
+                height: 900px;
+                background-size: cover;
+            }
+            label
+            {
+                color: rgb(0, 0, 0);
+                font-size:26px;
+                -webkit-text-stroke: 1px black;
+            }
+            b 
+            {
+                color: rgb(0, 53, 128);
+                font-size:26px;
+                -webkit-text-stroke: 1px black;
+            }
+            input[type=text],
+            input[type=password],
+            input[type=number] 
+            {
+                width: 50%;
+                padding: 20px;
+                margin: 15px 0px;
+                border: 2px solid rgb(128, 0, 109);
+                align-content: center;
+            }
+            input[type=radio],
+            input[type=checkbox] 
+            {
+                width: 10%;
+                padding: 20px;
+                margin: 15px 0px;
+                border: 2px solid rgb(128, 0, 109);
+                align-content: center;
+            }
+            .button {
+                background-color: rgb(128, 0, 94);
+                color: white;
+                padding: 16px 16px;
+                border: none;
+                cursor: pointer;
+                width: 50%;
+            }
+            .button:hover 
+            {
+                transform: scale(1.1);
+                transition: transform 0.3s;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="bg">
+            <h1>SIGN UP</h1>
+            <form>
+                <b>NAME</b>
+                <input type="text"
+                    placeholder="Name Please"
+                    name="username"
+                    required>
+                <br>
+                <b>ADDRESS</b>
+                <input type="text"
+                    placeholder="Enter Address"
+                    name="address"
+                    required>
+                <br>    
+                <b>USERNAME</b>
+                <input type="text"
+                    placeholder="Username Please"
+                    name="username"
+                    required>
+                <br>
+                <b>AGE</b>
+                <input type="number"
+                    placeholder="Age Please"
+                    name="age"
+                    required>
+                <br>
+                <b>PASSWORD</b>
+                <input type="password"
+                    placeholder="Enter Password"
+                    name="password"
+                    required>
+                <br> 
+                <b>SELECT GENDER</b>
+                <input type="radio" name="gender" id="male">
+                <label for="male">Male</label>
+                <input type="radio" name="gender" id="female">
+                <label for="female">Female</label>
+                <br>
+                <br>
+                <br>
+                <br>
+                <button type="submit"
+					class="button">
+                SUBMIT
+			</button>
+            </form>
+            
+        </div>
+
+    </body>
+</html>
