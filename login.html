@@ -102,11 +102,21 @@
         <br>
 		<br>
 		<br>
-            <button id="sign up"
-			type="sign up"
+            <button id="sign-up"
+			type="sign-up"
                     class="button" >
                     <a href="signup.html">Sign Up</a>
             </button>
 	</div>
+	<script>
+		var user_name = document.getElementById("Username"); 
+		document.getElementById("login").addEventListener("click", function(){ 
+			var value=user_name.value.trim(); 
+			if(!value) 
+				alert("Name Cannot be empty!"); 
+			else 
+				alert("Hello, " + value + "!\nGreetings."); 
+		}); 
+	</script>
 </body>
 </html>
