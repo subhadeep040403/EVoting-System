@@ -1,2 +1,2 @@
 # EVoting-System
-<a href="home.html">Home</a>
+<a href="index.html">Home</a>
